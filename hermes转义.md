@@ -68,7 +68,7 @@ if (config.useJsBundle) {
   });
 }
 if (config.useHermesBundle) {
-  archive.append(fs.createReadStream(options.bundleOutput), {
+  archive.append(fs.createReadStream(options.bundleOutput + '.hbc'), {
     name: options.bundleName + '.bundle.hbc',
   });
 }
