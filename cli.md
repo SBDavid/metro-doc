@@ -87,6 +87,7 @@ npm run postpublish
 
 "@xmly/cli": "0.3.9-alpha1",
 npm run prebuild
+npm run build
 
 ## 修改xm-react-native的package.json
 git push
